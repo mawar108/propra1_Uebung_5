@@ -34,12 +34,12 @@ public class Kinoverwaltung {
 
         //Bisher hier wurde nur "das Kino" erstellt mit seinem Programm
 
+        vorfuehrungen.findVorfuehrungByID(vorfuehrungID1_A).vorfuehrungsPlan();
+
+        mitarbeiter1.blockierGewuenschtenSitzOderSitze(saal1_A, new Sitz('A', 3));
 
 
-        mitarbeiter1.blockierGewünschtenSitzOderSitze(new Sitz('A', 3));
-
-
-
+        vorfuehrungen.findVorfuehrungByID(vorfuehrungID1_A).vorfuehrungsPlan();
 
 
 
